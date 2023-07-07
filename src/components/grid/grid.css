@@ -1,0 +1,26 @@
+.grid {
+  display: flex;
+  /* flex-direction: column; */
+  background-color: whitesmoke;
+  width: 540px;
+  height: 540px;
+}
+.gridSuccess {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  color: black;
+  width: 540px;
+  align-items: center;
+  height: 540px;
+  justify-content: center;
+}
+
+.input {
+  width: 180px;
+  height: 180px;
+  font-size: 160px;
+  text-align: center;
+  border: 1px solid black;
+  color: black;
+}

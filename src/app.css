@@ -1,0 +1,33 @@
+.app {
+  background-color: #1a1a3e;
+  width: 100vw;
+  height: 100vh;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100px;
+}
+
+button {
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.text {
+  border: 1px solid black;
+  padding: 7px;
+  color: black;
+  background-color: rgb(221 221 221);
+  border-radius: 5px;
+}
