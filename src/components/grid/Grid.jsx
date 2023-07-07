@@ -134,8 +134,10 @@ function Grid(props) {
       )}
       {gameOver && !draw && (
         <div className='gridSuccess'>
-          <h3 className='text'>Game Over!</h3>
-          <h3 className='text'>Player {value === 'X' ? 'O' : 'X'} wins</h3>
+          <div className='gameSuccess'>
+            <h3 className='text'>Game Over!</h3>
+            <h3 className='text'>Player {value === 'X' ? 'O' : 'X'} wins</h3>
+          </div>
         </div>
       )}
       {draw && !gameOver && (

@@ -20,16 +20,6 @@ function App() {
     setRow3(['', '', '']);
   };
 
-  useEffect(() => {
-    console.log(row1);
-    console.log(row2);
-    console.log(row3);
-    if (row1[0] !== '' && row1[1] !== '' && row1[2] !== '') {
-      console.log(true);
-    }
-    debugger;
-  }, []);
-
   return (
     <div className='app'>
       <Grid
